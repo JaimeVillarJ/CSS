@@ -1,0 +1,224 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-image: url(./fondo.png); 
+}
+
+#frase {
+  color: white;
+  font-family: fantasy;
+}
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-informacion {
+  display: inline-block;
+  background: rgb(228, 223, 223);
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.contenedor-estudios {
+  background-color: rgb(228, 223, 223);
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+#titulo {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  margin-bottom: 50px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 45% 45%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contenedor-interno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #918686;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#parrafo-1 {
+  margin-right: 20px;
+  font-size: 30px;
+  color: rgb(252, 249, 252);
+}
+
+.imagen-1 {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  border: 6px inset rgb(168, 157, 157);
+}
+
+#titulo-proyectos {
+  position: sticky;
+  top: 0;
+  background-color: rgb(7, 7, 7); /* para que no se vea superpuesto con transparencia */
+  z-index: 1000; /* para que esté por encima del contenido */
+  padding: 10px 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.contenedor-proyectos {
+  display: inline-block;
+  background: rgb(228, 223, 223);
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#parrafo-2 {
+  margin-left: 80px;
+  font-size: 30px;
+  color: rgb(14, 13, 13);
+  font-family: fantasy;
+}
+
+.imagen-2 {
+  position: relative;
+  top: 10px;
+  right: -80px;
+  width: 500px;
+  height: 250px;
+  
+  z-index: 1;
+}
+
+#img1 {
+  border: 10px inset #415197;
+}
+
+#img2 {
+  border: 10px inset #16d466;
+}
+
+#img3 {
+  border: 10px inset #d33b3b;
+}
+
+.lista {
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  right: 100px;;
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px dashed white;
+  z-index: 0;
+}
+
+.sub-contenedor {
+  margin-bottom: 200px;
+}
+
+
+
+
+/* Footer con temática blanco y negro */
+footer {
+  background: #111;
+  color: #fff;
+  padding: 40px 0 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#contacto h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: fantasy;
+}
+
+#contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#contacto label {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#contacto input,
+#contacto textarea {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: #222;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+#contacto button {
+  background: #fff;
+  color: #111;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+#contacto button:hover {
+  background: #111;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.redes-sociales {
+  margin-top: 20px;
+}
+
+.redes-sociales p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.redes-sociales a:hover {
+  color: #bbb;
+}
